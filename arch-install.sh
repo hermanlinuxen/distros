@@ -3,10 +3,6 @@
 #########################
 ## Arch Linux           #
 #########################
-## Full-Disk Encryption #
-## AppArmor & Firejail  #
-## KDE PLasma & SDDM    #
-#########################
 
 loadkeys no
 
