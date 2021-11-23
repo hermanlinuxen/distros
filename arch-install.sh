@@ -1,5 +1,7 @@
 #!/bin/bash
 # Not meant to be ran as script. Only for storing commands.
+echo "Do not run script."
+exit 1
 #########################
 ## Arch Linux           #
 #########################
