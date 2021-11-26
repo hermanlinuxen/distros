@@ -27,7 +27,7 @@ parted /dev/sda -s -- set 2 lvm on
 parted /dev/sda -s -- print
 parted /dev/sda -s -- quit
 
-cryptsetup --verbose --cipher aes-xts-plain64 --key-size 512 --hash sha512 --use-urandom -y luksFormat /dev/sda2
+cryptsetup --verbose --cipher aes-xts-plain64 --key-size 512 --hash sha512 --use-random -y luksFormat /dev/sda2
 cryptsetup luksOpen /dev/sda2 cryptroot
 
 pvcreate /dev/mapper/cryptroot
