@@ -110,7 +110,7 @@ systemctl enable apparmor.service
 
 nano -w /etc/X11/xorg.conf.d/00-keyboard.conf
 # File must contain following for Norwegian key layout
-Selection "ImputClass"
+Section "InputClass"
         Identifier "system-keyboard"
         MatchIsKeyboard "on"
         Option "XkbLayout" "no"
